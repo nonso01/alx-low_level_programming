@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* the fuck is betty style ?
+* main - prints a quote
 */
 int main(void)
 {
