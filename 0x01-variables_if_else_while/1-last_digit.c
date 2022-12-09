@@ -12,7 +12,9 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastNum = n % 10;
 
-int six = 6, five = 5, zero = 0;
+int six = 6;
+int five = 5;
+int zero = 0;
 if (n == zero)
 printf("Last digit of %d is %d and is %d\n", n, lastNum, zero);
 else
