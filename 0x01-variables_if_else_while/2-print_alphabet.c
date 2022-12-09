@@ -10,6 +10,6 @@ int main(void)
 {
 char chr;
 for (chr = 'a'; chr <= 'z'; ++chr)
-printf("%c ",  chr);
+printf("%c", chr);
 return (0);
 }
