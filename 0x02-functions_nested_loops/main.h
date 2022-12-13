@@ -9,6 +9,9 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
+
+
+
 /**
 *print_alphabet- lower case letters
 *Return: abc...
@@ -19,4 +22,5 @@ char start = 'a';
 char end = 'z';
 for (; start <= end; start++)
 _putchar(start);
+_putchar('\n');
 }
