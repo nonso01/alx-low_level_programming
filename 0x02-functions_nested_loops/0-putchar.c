@@ -7,6 +7,10 @@
 
 int main(void)
 {
-_putchar("_putchar\n");
+char word[] = "_putchar";
+int i = 0;
+for (; ch[i] != '\0'; ++i)
+_putchar(ch[i];
+_putchar('\n');
 return (0);
 }
