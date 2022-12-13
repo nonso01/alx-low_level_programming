@@ -9,3 +9,14 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
+/**
+*_l_alpha- lower case letters
+*Return: abc...
+*/
+void _l_alpha(void)
+{
+char start = 'a';
+char end = 'z';
+for (; start <= end; start++)
+_putchar(start);
+}
