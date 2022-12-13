@@ -10,10 +10,10 @@
  */
 int _putchar(char c);
 /**
-*_l_alpha- lower case letters
+*print_alphabet- lower case letters
 *Return: abc...
 */
-void _l_alpha(void)
+void print_alphabet(void)
 {
 char start = 'a';
 char end = 'z';
