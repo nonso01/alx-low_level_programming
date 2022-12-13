@@ -15,7 +15,7 @@ int _putchar(char c);
 *print_alphabet- lower case letters
 *Return: abc...
 */
-void print_alphabet(void)
+void print_alphabet(void);
 /*{
 char start[] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0;
