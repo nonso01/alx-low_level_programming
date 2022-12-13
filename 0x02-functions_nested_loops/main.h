@@ -37,11 +37,11 @@ int i = 0;
 int j = 0;
 while (i < 10)
 {
-i++
+i++;
 while (str[j] != '\0')
 {
 _putchar(str[j]);
-j++
+j++;
 }
 
 }
