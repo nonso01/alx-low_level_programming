@@ -16,7 +16,7 @@ int _putchar(char c);
 *Return: abc...
 */
 void print_alphabet(void)
-{
+/*{
 char start[] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0;
 for (; start[i] != '\0'; ++i)
@@ -24,3 +24,4 @@ _putchar(start[i]);
 
 _putchar('\n');
 }
+*/
