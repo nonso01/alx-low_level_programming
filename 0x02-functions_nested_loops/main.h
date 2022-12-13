@@ -1,4 +1,3 @@
-
 #include <unistd.h>
 
 /**
@@ -18,9 +17,10 @@ int _putchar(char c);
 */
 void print_alphabet(void)
 {
-char start = 'a';
-char end = 'z';
-for (; start <= end; start++)
-_putchar(start);
+char start[] = "abcdefghijklmnopqrstuvwxyz";
+int i = 0;
+for (; start[i] != '\0'; ++i)
+_putchar(start[i]);
+
 _putchar('\n');
 }
