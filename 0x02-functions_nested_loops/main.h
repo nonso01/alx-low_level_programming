@@ -30,4 +30,21 @@ _putchar('\n');
 * print_alphabet_x10 - bla bla
 *Return: 0
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
+{
+char str[] = "abcdefghijklmnopqrstuvwxyz";
+int i = 0;
+int j = 0;
+while (i < 10)
+{
+i++
+while (str[j] != '\0')
+{
+_putchar(str[j]);
+j++
+}
+
+}
+_putchar('\n');
+}
+
