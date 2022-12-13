@@ -1,2 +1,2 @@
 what are functions
-> having some issues witu header files and data types
+> having some issues with header files and data types
